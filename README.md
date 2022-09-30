@@ -26,7 +26,6 @@ Server running at http://127.0.0.1:3000/
 Nos dirijamos a: http://127.0.0.1:3000/
 
 En nuestro navegador preferido.  
- 
-Asegurarse que la linea
+
 
 
