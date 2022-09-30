@@ -1,18 +1,32 @@
 ## Instalación
 
-Make sure you have [Node.js](http://nodejs.org/) installed.
+Asegurarse de tener instalado. Si no descargarlo en: [Node.js](http://nodejs.org/).
 
 ```sh
-git clone git@github.com:heroku/node-js-sample.git 
+git clone https://github.com/tholliver/mime-server.git
 ``` 
 Ingresamos al directorio de la app:
 ```sh
-cd node-js-sample
+cd mime-server
 ```
-Una 
+Instalamos los módulos necesarios:
 ```sh
 npm install
+```
+Finalmente corremos la app:
+```sh 
 npm run dev
 ```
+En la misma terminal se debe mostrar:
+```sh
+Server running at http://127.0.0.1:3000/
+```
+## Uso 
 
-Your app should now be running on [localhost:3000](http://localhost:3000/).
+Nos dirijamos a: http://127.0.0.1:3000/
+
+En nuestro navegador preferido.  
+ 
+Asegurarse que la linea
+
+
