@@ -1,0 +1,16 @@
+<body>
+    <header>
+        <h1>Employee Database</h1>
+    </header>
+    <form action="/upload_files" method="POST" enctype="multipart/form-data">
+        <fieldset>
+            <h3>Subir archivos</h3>
+
+            <label>Files:</label>
+            <br>
+            <input type="file" id="files" name="files" required multiple>
+            <br>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
