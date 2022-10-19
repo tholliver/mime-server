@@ -1,16 +1,47 @@
-<body>
-    <header>
-        <h1>MIME file server</h1>
-    </header>
-    <form action="/upload_files" method="POST" enctype="multipart/form-data">
-        <fieldset>
-            <h3>Subir archivos</h3>
+<!DOCTYPE html>
+<html lang="en">
 
-            <label>Files:</label>
-            <br>
-            <input type="file" id="files" name="files" required multiple>
-            <br>
-            <button type="reset">Reset</button>
-            <button type="submit">Submit</button>
-        </fieldset>
-    </form>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeVille - File Server</title>
+</head>
+
+<body>
+    <div class="title-comp">
+        <header>Gestione sus archivos con LeVille</header>
+    </div>
+
+    <div class="drag-area">
+        <form action="/upload_files" class="drag-area" method="POST" enctype="multipart/form-data">
+            <div class="icon"><i class="fas fa-cloud-upload-alt"></i></div>
+            <header>Arrastre y suba sus archivos</header>
+
+
+
+            <input type="file" id="files" name="files" required multiple style="
+            padding: 10px 25px;
+            font-size: 20px;
+            font-weight: 500;
+            border: none;
+            outline: none;
+            background: #fff;
+            color: #5256ad;
+            border-radius: 5px;
+            cursor: pointer;">
+
+            <div class="row-butoms">
+                <div class="item-flex">
+                    <button type="reset">Cancelar</button>
+                </div>
+                <div class="item-flex">
+                    <button type="submit">Subir</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

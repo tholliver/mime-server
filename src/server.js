@@ -22,7 +22,7 @@ app.post("/upload_files", upload.array("files"), (req, res) => {
   try {
     console.log(req.body);
     console.log(req.files);
-    res.json({ message: "Successfully uploaded files" });
+    res.json({ message: "Sus archivos se han subido exitosamente" });
   } catch (err) {
     console.error(err);
   }
